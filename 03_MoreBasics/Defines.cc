@@ -1,5 +1,4 @@
 #include <iostream>
-
 #define DEFAULT_VEHICLE_ID (-1)
 #define NUM_VEHICLES 3
 

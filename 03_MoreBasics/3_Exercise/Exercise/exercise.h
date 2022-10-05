@@ -1,5 +1,6 @@
 #pragma once
 
+// Funktionen können nicht ohne name-scope aufgerufen werden
 namespace computation
 {
 // Exercise 1

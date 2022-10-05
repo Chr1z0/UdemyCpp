@@ -15,7 +15,8 @@ int main()
     std::cout << "Mean Array B: " << mean_array_b << std::endl;
 
     // Exercise 2
-    computation::Dataset data{.mean_array_a=mean_array_a, .mean_array_b=mean_array_b};
+    // .[membername] sorgt für Ersichtlichkeit welches Attribut initialisiert wird
+    computation::Dataset data{.mean_array_a = mean_array_a, .mean_array_b = mean_array_b};
     std::cout << data.mean_array_a << std::endl;
     std::cout << data.mean_array_b << std::endl;
 

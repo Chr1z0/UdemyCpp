@@ -3,6 +3,8 @@
 
 #include "DynArray.h"
 
+// An jeder Stelle des Arrays [length] wird der gleiche const double gespeichert
+// !Wird neues Array erstellt, wid auch neuer struct erstellt!
 DynamicArray create_dynamic_array(const double &value, const std::size_t &length)
 {
     DynamicArray dynamic_array = {nullptr, 0};
@@ -16,6 +18,7 @@ DynamicArray create_dynamic_array(const double &value, const std::size_t &length
 
     return dynamic_array;
 }
+
 
 void push_back(DynamicArray &dynmaic_array, const int &value)
 {

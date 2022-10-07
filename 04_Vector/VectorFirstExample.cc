@@ -5,7 +5,7 @@ int main()
 {
     // vector von int Schreibweise
                            // 10 Elemente, welche alle Wert 0 haben
-    std::vector<int> myVector(4, 0);
+    std::vector<int> myVector(4,0);
 
     // Handhabung wie Array
     std::cout << myVector[0] << std::endl;
